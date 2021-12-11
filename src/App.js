@@ -6,7 +6,7 @@ import {
   Features,
   WhatGPT3,
   Header,
-} from "./containers/index";
+} from "./pages/containers/index";
 import { CTA, Brand, Navbar } from "./components/index";
 
 function App() {
