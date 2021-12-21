@@ -1,8 +1,18 @@
 import React from "react";
 import "./style.css";
 
-function Feature() {
-  return <div>Feature</div>;
+function Feature({ title, text }) {
+  return (
+    <div className="gpt3_features-container_feature">
+      <div className="gpt3_features-container_feature-title">
+        <div />
+        <h1> {title} </h1>
+      </div>
+      <div className="gpt3_features-container_feature-text">
+        <p>{text} </p>
+      </div>
+    </div>
+  );
 }
 
 export default Feature;

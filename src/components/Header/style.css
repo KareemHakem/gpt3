@@ -1,5 +1,6 @@
 .gpt3_header {
   display: flex;
+  align-items: center;
 }
 
 .gpt3_header_content {
@@ -105,8 +106,8 @@
 }
 
 @media screen and (max-width: 1050px) {
-  .get_header {
-    flex-direction: column;
+  .gpt3_header {
+    flex-direction: column !important;
   }
 
   .gpt3_header_content {
@@ -115,11 +116,11 @@
 }
 
 @media screen and (max-width: 650px) {
-  .get_header h1 {
+  .gpt3_header h1 {
     font-size: 48px;
     line-height: 60px;
   }
-  .get_header p {
+  .gpt3_header p {
     font-size: 16px;
     line-height: 24px;
   }
@@ -140,11 +141,11 @@
 }
 
 @media screen and (max-width: 480px) {
-  .get_header h1 {
+  .gpt3_header h1 {
     font-size: 36px;
     line-height: 48px;
   }
-  .get_header p {
+  .gpt3_header p {
     font-size: 14px;
     line-height: 24px;
   }
